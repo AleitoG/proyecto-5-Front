@@ -1,0 +1,95 @@
+body,
+html {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.principalContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "form" "container";
+}
+
+.container {
+  grid-area: container;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.formContainer {
+  grid-area: form;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.formContainer {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 2.5%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-areas: "b1 a1 b2 a2 b3 a3" "b4 a4 b5 a5 b6 a6" "b7 a7 b8 a8 b9 a9";
+}
+
+#a1 {
+  grid-area: a1;
+}
+#a2 {
+  grid-area: a2;
+}
+#a3 {
+  grid-area: a3;
+}
+#a4 {
+  grid-area: a4;
+}
+#a5 {
+  grid-area: a5;
+}
+#a6 {
+  grid-area: a6;
+}
+#a7 {
+  grid-area: a7;
+}
+#a8 {
+  grid-area: a8;
+}
+#a9 {
+  grid-area: a9;
+}
+
+#b1 {
+  grid-area: b1;
+}
+#b2 {
+  grid-area: b2;
+}
+#b3 {
+  grid-area: b3;
+}
+#b4 {
+  grid-area: b4;
+}
+#b5 {
+  grid-area: b5;
+}
+#b6 {
+  grid-area: b6;
+}
+#b7 {
+  grid-area: b7;
+}
+#b8 {
+  grid-area: b8;
+}
+#b9 {
+  grid-area: b9;
+}
